@@ -21,13 +21,13 @@ if( !defined( 'MEDIAWIKI' ) ) {
 }
  
 // Extension credits that will show up on Special:Version    
-$wgExtensionCredits['parser extensions'][] = array(
+$wgExtensionCredits['parserhook'][] = array(
         'path'           => __FILE__,
         'name'           => 'AllTimeZones',
         'version'        => '0.1',
         'author'         => 'Nischay Nahata', 
         'url'            => 'https://www.mediawiki.org/wiki/Extension:AllTimeZones',
-        'descriptionmsg' => 'alltimezones',
+        'descriptionmsg' => 'alltimezones-desc',
 );
 
 $wgAllTimeZonesIP = dirname( __FILE__ ) . '/';

@@ -13,5 +13,6 @@ $messages = array();
  * @author Nischay Nahata
  */
 $messages['en'] = array(
-	'alltimezones' => 'This is a tag extension and lets you show dates in all time zones',
+	'alltimezones-desc' => 'Adds a tag to show dates in all time zones',
 );
+
