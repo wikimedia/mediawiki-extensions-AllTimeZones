@@ -23,6 +23,13 @@ $messages['af'] = array(
 	'alltimezones-desc' => "Maak 'n etiket beskikbaar om datums in alle tydsones te wys",
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'alltimezones-desc' => "Amiesta una etiqueta p'amosar les dates en toles estayes horaries",
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
