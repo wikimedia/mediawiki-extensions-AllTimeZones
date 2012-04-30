@@ -30,6 +30,20 @@ $messages['ast'] = array(
 	'alltimezones-desc' => "Amiesta una etiqueta p'amosar les dates en toles estayes horaries",
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'alltimezones-desc' => 'Дадае тэг для адлюстраваньня датаў ва ўсіх часавых пасах',
+);
+
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'alltimezones-desc' => 'Ouzhpennañ a ra un dikedenn evit diskouez an deiziadoù en holl werzhidoù eur.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -42,6 +56,13 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'alltimezones-desc' => 'Pśidawa toflicku, aby datumy we wšych casowych pasmach pokazało',
+);
+
+/** Esperanto (Esperanto)
+ * @author ArnoLagrange
+ */
+$messages['eo'] = array(
+	'alltimezones-desc' => 'Aldonas markilon por vidigi datojn en ĉiuj horzonoj.',
 );
 
 /** Spanish (Español)
@@ -72,6 +93,13 @@ $messages['hsb'] = array(
 	'alltimezones-desc' => 'Přidawa tafličku, zo by datumy we wšěch časowych pasmach pokazało',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'alltimezones-desc' => '모든 시간대의 날짜를 표시하는 태그를 추가',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -91,5 +119,12 @@ $messages['mk'] = array(
  */
 $messages['pt'] = array(
 	'alltimezones-desc' => 'Adiciona uma marca para mostrar datas em todos os fusos horários',
+);
+
+/** Swedish (Svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'alltimezones-desc' => 'Lägger till en tagg för att visa datum i alla tidszoner',
 );
 
