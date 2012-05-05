@@ -23,6 +23,13 @@ $messages['af'] = array(
 	'alltimezones-desc' => "Maak 'n etiket beskikbaar om datums in alle tydsones te wys",
 );
 
+/** Arabic (العربية)
+ * @author DRIHEM
+ */
+$messages['ar'] = array(
+	'alltimezones-desc' => 'يضيف وسما لعرض التواريخ في كافة المناطق الزمنية',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -91,6 +98,13 @@ $messages['gl'] = array(
  */
 $messages['hsb'] = array(
 	'alltimezones-desc' => 'Přidawa tafličku, zo by datumy we wšěch časowych pasmach pokazało',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'alltimezones-desc' => 'Adde un etiquetta pro monstrar datas in tote le fusos horari',
 );
 
 /** Korean (한국어)
