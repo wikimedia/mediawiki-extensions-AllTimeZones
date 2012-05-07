@@ -93,6 +93,13 @@ $messages['gl'] = array(
 	'alltimezones-desc' => 'Engade unha etiqueta para mostrar as datas en todos os fusos horarios',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'alltimezones-desc' => 'הוספת תג שמציג תאריכים בכל אזורי הזמן',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -133,6 +140,13 @@ $messages['mk'] = array(
  */
 $messages['pt'] = array(
 	'alltimezones-desc' => 'Adiciona uma marca para mostrar datas em todos os fusos horários',
+);
+
+/** Russian (Русский)
+ * @author Eleferen
+ */
+$messages['ru'] = array(
+	'alltimezones-desc' => 'Добавляет тег для отображения дат во всех часовых поясах',
 );
 
 /** Swedish (Svenska)
