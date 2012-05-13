@@ -135,6 +135,13 @@ $messages['mk'] = array(
 	'alltimezones-desc' => 'Додава ознака за прикажување на датумите во сите часовни појаси',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'alltimezones-desc' => 'Voegt een label toe om datums weer te geven in alle tijdzones',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
