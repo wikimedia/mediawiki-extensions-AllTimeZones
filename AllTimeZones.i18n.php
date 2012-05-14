@@ -156,6 +156,13 @@ $messages['ru'] = array(
 	'alltimezones-desc' => 'Добавляет тег для отображения дат во всех часовых поясах',
 );
 
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'alltimezones-desc' => 'Pridáva značku na zobrazenie dátumov vo všetkých časových pásmach',
+);
+
 /** Swedish (Svenska)
  * @author Lokal Profil
  */
