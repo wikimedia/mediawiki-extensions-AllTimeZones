@@ -114,6 +114,20 @@ $messages['ia'] = array(
 	'alltimezones-desc' => 'Adde un etiquetta pro monstrar datas in tote le fusos horari',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'alltimezones-desc' => 'Aggiunge un tag per visualizzare le date in tutti i fusi orari',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'alltimezones-desc' => 'あらゆるタイムゾーンの日時を表示するタグを追加する',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
@@ -135,11 +149,25 @@ $messages['mk'] = array(
 	'alltimezones-desc' => 'Додава ознака за прикажување на датумите во сите часовни појаси',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'alltimezones-desc' => 'Membubuh teg untuk memaparkan tarikh di semua zon waktu',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'alltimezones-desc' => 'Voegt een label toe om datums weer te geven in alle tijdzones',
+);
+
+/** Polish (Polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'alltimezones-desc' => 'Dodaje znacznik, aby wyświetlić daty we wszystkich strefach czasowych',
 );
 
 /** Portuguese (Português)
@@ -168,5 +196,12 @@ $messages['sk'] = array(
  */
 $messages['sv'] = array(
 	'alltimezones-desc' => 'Lägger till en tagg för att visa datum i alla tidszoner',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'alltimezones-desc' => 'לייגט צו א טאַג וואס ווײַזט דאטעס אין אלע צײַטזאנעס',
 );
 
