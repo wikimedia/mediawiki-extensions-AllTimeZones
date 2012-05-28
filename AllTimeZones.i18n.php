@@ -135,6 +135,13 @@ $messages['ko'] = array(
 	'alltimezones-desc' => '모든 시간대의 날짜를 표시하는 태그를 추가',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'alltimezones-desc' => 'Deiht ene Befähl en et Wiki, öm jedes Dattum en jeede Ziggzohn aanzeije ze künne.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
