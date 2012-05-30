@@ -212,3 +212,10 @@ $messages['yi'] = array(
 	'alltimezones-desc' => 'לייגט צו א טאַג וואס ווײַזט דאטעס אין אלע צײַטזאנעס',
 );
 
+/** Simplified Chinese (‪中文（简体）‬)
+ * @author Dimension
+ */
+$messages['zh-hans'] = array(
+	'alltimezones-desc' => '添加标签以显示所有时区的日期',
+);
+
