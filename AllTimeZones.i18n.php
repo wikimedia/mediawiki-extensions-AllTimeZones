@@ -177,6 +177,13 @@ $messages['pl'] = array(
 	'alltimezones-desc' => 'Dodaje znacznik, aby wyświetlić daty we wszystkich strefach czasowych',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'alltimezones-desc' => 'A gionta na tichëtta për mosté le date an tùit ij fus orari',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
