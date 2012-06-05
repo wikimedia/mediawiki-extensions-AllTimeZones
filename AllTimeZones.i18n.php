@@ -178,10 +178,11 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'alltimezones-desc' => 'A gionta na tichëtta për mosté le date an tùit ij fus orari',
+	'alltimezones-desc' => 'A gionta na tichëtta për smon-e le date an tùit ij fus orari',
 );
 
 /** Portuguese (Português)
