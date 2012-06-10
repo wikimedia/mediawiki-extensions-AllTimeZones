@@ -213,6 +213,20 @@ $messages['sv'] = array(
 	'alltimezones-desc' => 'Lägger till en tagg för att visa datum i alla tidszoner',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'alltimezones-desc' => 'Nagdaragdag ng isang tatak upang maipakita ang mga petsa sa lahat ng mga sona ng oras',
+);
+
+/** Ukrainian (українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'alltimezones-desc' => 'Додає теги для відображення дат в усіх часових поясах',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
