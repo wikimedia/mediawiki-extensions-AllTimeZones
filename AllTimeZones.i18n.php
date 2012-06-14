@@ -30,7 +30,7 @@ $messages['ar'] = array(
 	'alltimezones-desc' => 'يضيف وسما لعرض التواريخ في كافة المناطق الزمنية',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -44,7 +44,7 @@ $messages['be-tarask'] = array(
 	'alltimezones-desc' => 'Дадае тэг для адлюстраваньня датаў ва ўсіх часавых пасах',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -72,14 +72,14 @@ $messages['eo'] = array(
 	'alltimezones-desc' => 'Aldonas markilon por vidigi datojn en ĉiuj horzonoj.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
 	'alltimezones-desc' => 'Añadir una etiqueta para mostrar las fechas en todas las zonas horarias',
 );
 
-/** French (Français)
+/** French (français)
  * @author Wyz
  */
 $messages['fr'] = array(
@@ -107,14 +107,14 @@ $messages['hsb'] = array(
 	'alltimezones-desc' => 'Přidawa tafličku, zo by datumy we wšěch časowych pasmach pokazało',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
 	'alltimezones-desc' => 'Adde un etiquetta pro monstrar datas in tote le fusos horari',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -149,7 +149,7 @@ $messages['lb'] = array(
 	'alltimezones-desc' => 'Setzt en Tag derbäi fir Datumen an allen Zäitzonen ze weisen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -170,7 +170,7 @@ $messages['nl'] = array(
 	'alltimezones-desc' => 'Voegt een label toe om datums weer te geven in alle tijdzones',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -185,28 +185,28 @@ $messages['pms'] = array(
 	'alltimezones-desc' => 'A gionta na tichëtta për smon-e le date an tùit ij fus orari',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Malafaya
  */
 $messages['pt'] = array(
 	'alltimezones-desc' => 'Adiciona uma marca para mostrar datas em todos os fusos horários',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  */
 $messages['ru'] = array(
 	'alltimezones-desc' => 'Добавляет тег для отображения дат во всех часовых поясах',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'alltimezones-desc' => 'Pridáva značku na zobrazenie dátumov vo všetkých časových pásmach',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  */
 $messages['sv'] = array(
