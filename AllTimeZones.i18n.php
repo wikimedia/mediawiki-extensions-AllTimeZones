@@ -149,6 +149,13 @@ $messages['lb'] = array(
 	'alltimezones-desc' => 'Setzt en Tag derbäi fir Datumen an allen Zäitzonen ze weisen',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Garas
+ */
+$messages['lt'] = array(
+	'alltimezones-desc' => 'Prideda gairę, rodančią datas visose laiko zonose',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
