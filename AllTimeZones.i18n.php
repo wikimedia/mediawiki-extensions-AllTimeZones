@@ -79,6 +79,13 @@ $messages['es'] = array(
 	'alltimezones-desc' => 'Añadir una etiqueta para mostrar las fechas en todas las zonas horarias',
 );
 
+/** Finnish (suomi)
+ * @author Linnea
+ */
+$messages['fi'] = array(
+	'alltimezones-desc' => 'Näyttää kaikkien aikavyöhykkeiden päivämäärät',
+);
+
 /** French (français)
  * @author Wyz
  */
