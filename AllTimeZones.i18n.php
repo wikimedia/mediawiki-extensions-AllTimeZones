@@ -37,7 +37,7 @@ $messages['ast'] = array(
 	'alltimezones-desc' => "Amiesta una etiqueta p'amosar les dates en toles estayes horaries",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -58,7 +58,7 @@ $messages['de'] = array(
 	'alltimezones-desc' => 'Ergänzt das Tag <code><timezone></code> mit dem man eine zeitzonenabhängige Zeitangabe einbinden kann',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -93,7 +93,7 @@ $messages['fr'] = array(
 	'alltimezones-desc' => 'Ajoute une balise pour afficher les dates dans tous les fuseaux horaires',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -107,7 +107,7 @@ $messages['he'] = array(
 	'alltimezones-desc' => 'הוספת תג שמציג תאריכים בכל אזורי הזמן',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
