@@ -44,6 +44,13 @@ $messages['be-tarask'] = array(
 	'alltimezones-desc' => 'Дадае тэг для адлюстраваньня датаў ва ўсіх часавых пасах',
 );
 
+/** Bulgarian (български)
+ * @author Dimi z
+ */
+$messages['bg'] = array(
+	'alltimezones-desc' => 'Добавете етикет за показване на дати във всички времеви зони.',
+);
+
 /** Breton (brezhoneg)
  * @author Fulup
  */
