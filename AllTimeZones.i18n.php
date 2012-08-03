@@ -45,10 +45,11 @@ $messages['be-tarask'] = array(
 );
 
 /** Bulgarian (български)
+ * @author DCLXVI
  * @author Dimi z
  */
 $messages['bg'] = array(
-	'alltimezones-desc' => 'Добавете етикет за показване на дати във всички времеви зони.',
+	'alltimezones-desc' => 'Добавяне на етикет за показване на дати във всички часови зони',
 );
 
 /** Breton (brezhoneg)
