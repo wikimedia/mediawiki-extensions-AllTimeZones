@@ -59,6 +59,13 @@ $messages['br'] = array(
 	'alltimezones-desc' => 'Ouzhpennañ a ra un dikedenn evit diskouez an deiziadoù en holl werzhidoù eur.',
 );
 
+/** Danish (dansk)
+ * @author Hylle
+ */
+$messages['da'] = array(
+	'alltimezones-desc' => 'Tilføjer en tag til at vise datoer i alle tidszoner',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
