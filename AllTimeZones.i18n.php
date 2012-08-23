@@ -221,6 +221,13 @@ $messages['pt'] = array(
 	'alltimezones-desc' => 'Adiciona uma marca para mostrar datas em todos os fusos horários',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'alltimezones-desc' => "Agigunge 'nu tag pe fà vedè le date jndr'à tutte le fuse orarie",
+);
+
 /** Russian (русский)
  * @author Eleferen
  */
