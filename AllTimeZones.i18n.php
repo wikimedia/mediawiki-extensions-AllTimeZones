@@ -94,6 +94,13 @@ $messages['es'] = array(
 	'alltimezones-desc' => 'Añadir una etiqueta para mostrar las fechas en todas las zonas horarias',
 );
 
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'alltimezones-desc' => 'یک برچسب بیافزائید تا تاریخ در همه محدوده‌های زمانی به نمایش در آید.',
+);
+
 /** Finnish (suomi)
  * @author Linnea
  */
