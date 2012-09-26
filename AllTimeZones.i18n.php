@@ -284,3 +284,8 @@ $messages['zh-hans'] = array(
 	'alltimezones-desc' => '添加标签以显示所有时区的日期',
 );
 
+/** Traditional Chinese (中文（繁體）‎) */
+$messages['zh-hant'] = array(
+	'alltimezones-desc' => '添加標籤以顯示所有時區的日期',
+);
+
