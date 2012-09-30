@@ -143,6 +143,13 @@ $messages['ia'] = array(
 	'alltimezones-desc' => 'Adde un etiquetta pro monstrar datas in tote le fusos horari',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'alltimezones-desc' => 'Aginayon ti etiketa tapno agipakita kadagiti petsa kadagiti amin a sona ti oras',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
