@@ -277,6 +277,13 @@ $messages['uk'] = array(
 	'alltimezones-desc' => 'Додає теги для відображення дат в усіх часових поясах',
 );
 
+/** Waray (Winaray)
+ * @author Harvzsf
+ */
+$messages['war'] = array(
+	'alltimezones-desc' => 'Nagdudugang hin tag pagpakita hin mga petsa ha ngatanan nga mga zona hin oras',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
