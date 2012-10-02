@@ -37,7 +37,7 @@ $messages['ast'] = array(
 	'alltimezones-desc' => "Amiesta una etiqueta p'amosar les dates en toles estayes horaries",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -291,7 +291,7 @@ $messages['yi'] = array(
 	'alltimezones-desc' => 'לייגט צו א טאַג וואס ווײַזט דאטעס אין אלע צײַטזאנעס',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Dimension
  */
 $messages['zh-hans'] = array(
