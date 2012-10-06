@@ -73,6 +73,13 @@ $messages['de'] = array(
 	'alltimezones-desc' => 'Ergänzt das Tag <code><timezone></code> mit dem man eine zeitzonenabhängige Zeitangabe einbinden kann',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'alltimezones-desc' => 'Etiketanê Waranê seatan de tarixaya bıvinê',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
