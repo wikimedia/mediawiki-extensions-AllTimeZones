@@ -270,6 +270,13 @@ $messages['sv'] = array(
 	'alltimezones-desc' => 'Lägger till en tagg för att visa datum i alla tidszoner',
 );
 
+/** Tamil (தமிழ்)
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'alltimezones-desc' => 'அனைத்து நேர வலயங்களிலும் திகதிகளைக் காட்டுவதற்கு ஓர் அடையாள ஒட்டைச் சேர்க்கும்',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
