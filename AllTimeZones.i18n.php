@@ -52,6 +52,13 @@ $messages['bg'] = array(
 	'alltimezones-desc' => 'Добавяне на етикет за показване на дати във всички часови зони',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'alltimezones-desc' => 'সকল টাইম জোনের তারিখ দেখাতে ট্যাগ যোগ করো',
+);
+
 /** Breton (brezhoneg)
  * @author Fulup
  */
