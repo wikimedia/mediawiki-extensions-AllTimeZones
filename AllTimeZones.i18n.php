@@ -37,6 +37,13 @@ $messages['ast'] = array(
 	'alltimezones-desc' => "Amiesta una etiqueta p'amosar les dates en toles estayes horaries",
 );
 
+/** تورکجه (تورکجه)
+ * @author Amir a57
+ */
+$messages['azb'] = array(
+	'alltimezones-desc' => 'بیر یاپیشیک آرتیرین بونجا بوتون تاریخ لرده گورونسون',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
