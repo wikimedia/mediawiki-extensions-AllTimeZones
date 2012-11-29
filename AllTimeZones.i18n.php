@@ -37,7 +37,7 @@ $messages['ast'] = array(
 	'alltimezones-desc' => "Amiesta una etiqueta p'amosar les dates en toles estayes horaries",
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Amir a57
  */
 $messages['azb'] = array(
