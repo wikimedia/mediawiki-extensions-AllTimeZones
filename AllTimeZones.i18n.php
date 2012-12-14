@@ -73,6 +73,13 @@ $messages['br'] = array(
 	'alltimezones-desc' => 'Ouzhpennañ a ra un dikedenn evit diskouez an deiziadoù en holl werzhidoù eur.',
 );
 
+/** Catalan (català)
+ * @author Pitort
+ */
+$messages['ca'] = array(
+	'alltimezones-desc' => 'Afegeix una etiqueta per mostrar les dates a totes les zones horàries',
+);
+
 /** Danish (dansk)
  * @author Hylle
  */
