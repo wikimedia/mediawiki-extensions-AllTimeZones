@@ -16,6 +16,13 @@ $messages['en'] = array(
 	'alltimezones-desc' => 'Adds a tag to show dates in all time zones',
 );
 
+/** Message documentation (Message documentation)
+ * @author Shirayuki
+ */
+$messages['qqq'] = array(
+	'alltimezones-desc' => '{{desc|name=All Time Zones|url=http://www.mediawiki.org/wiki/AllTimeZones}}',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
