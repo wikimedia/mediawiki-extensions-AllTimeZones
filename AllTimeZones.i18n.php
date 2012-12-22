@@ -87,6 +87,13 @@ $messages['ca'] = array(
 	'alltimezones-desc' => 'Afegeix una etiqueta per mostrar les dates a totes les zones horàries',
 );
 
+/** Czech (česky)
+ * @author Paxt
+ */
+$messages['cs'] = array(
+	'alltimezones-desc' => 'Přidá značku pro zobrazení data ve všech časových pásmech',
+);
+
 /** Danish (dansk)
  * @author Hylle
  */
@@ -274,6 +281,13 @@ $messages['pms'] = array(
  */
 $messages['pt'] = array(
 	'alltimezones-desc' => 'Adiciona uma marca para mostrar datas em todos os fusos horários',
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'alltimezones-desc' => 'Adaugă o etichetă pentru a afișa data în toate fusurile orare',
 );
 
 /** tarandíne (tarandíne)
