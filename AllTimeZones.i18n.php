@@ -185,6 +185,13 @@ $messages['ia'] = array(
 	'alltimezones-desc' => 'Adde un etiquetta pro monstrar datas in tote le fusos horari',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'alltimezones-desc' => 'Menambahkan tag untuk menampilkan tanggal di semua zona waktu',
+);
+
 /** Iloko (Ilokano)
  * @author Lam-ang
  */
