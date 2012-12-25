@@ -46,9 +46,17 @@ $messages['ast'] = array(
 
 /** South Azerbaijani (تورکجه)
  * @author Amir a57
+ * @author Mousa
  */
 $messages['azb'] = array(
-	'alltimezones-desc' => 'بیر یاپیشیک آرتیرین بونجا بوتون تاریخ لرده گورونسون',
+	'alltimezones-desc' => 'بوتون چاغ بؤلگه‌لرینده تاریخلری گؤسترمگه بیر اِتیکِت آرتیرار',
+);
+
+/** Bashkir (башҡортса)
+ * @author Sagan
+ */
+$messages['ba'] = array(
+	'alltimezones-desc' => 'Бөтә сәғәт бүлкәтендә датаны күрһәтеү өсөн тамға ҡуя',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
