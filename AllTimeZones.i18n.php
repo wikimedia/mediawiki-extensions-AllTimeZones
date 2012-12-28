@@ -186,6 +186,13 @@ $messages['hsb'] = array(
 	'alltimezones-desc' => 'Přidawa tafličku, zo by datumy we wšěch časowych pasmach pokazało',
 );
 
+/** Hungarian (magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'alltimezones-desc' => 'Hozzáad egy tag-et, amellyel a időpont megjeleníthető bármely időzónában',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
