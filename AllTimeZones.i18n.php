@@ -256,6 +256,13 @@ $messages['lt'] = array(
 	'alltimezones-desc' => 'Prideda gairę, rodančią datas visose laiko zonose',
 );
 
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'alltimezones-desc' => 'Nambahna tag kanggo nampilna tanggal nang kabeh zona wektu',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -324,6 +331,13 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'alltimezones-desc' => 'Добавляет тег для отображения дат во всех часовых поясах',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'alltimezones-desc' => 'සියලුම වේලා කලාපවල දිනයන් පෙන්වන ටැගයක් එක් කරයි',
 );
 
 /** Slovak (slovenčina)
