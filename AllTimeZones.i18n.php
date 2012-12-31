@@ -368,6 +368,13 @@ $messages['tl'] = array(
 	'alltimezones-desc' => 'Nagdaragdag ng isang tatak upang maipakita ang mga petsa sa lahat ng mga sona ng oras',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'alltimezones-desc' => 'بۇ Akismet قارا تىزىمىدىكى گۇمانلىق باھا يېزىپ تورخەت ياسىغۇچىلار تەھرىرلەشنى رەت قىلىدۇ',
+);
+
 /** Ukrainian (українська)
  * @author A1
  */
