@@ -130,6 +130,13 @@ $messages['dsb'] = array(
 	'alltimezones-desc' => 'Pśidawa toflicku, aby datumy we wšych casowych pasmach pokazało',
 );
 
+/** Greek (Ελληνικά)
+ * @author Protnet
+ */
+$messages['el'] = array(
+	'alltimezones-desc' => 'Προσθέτει μια ετικέτα για την προβολή ημερομηνιών σε όλες τις ζώνες ώρας',
+);
+
 /** Esperanto (Esperanto)
  * @author ArnoLagrange
  */
