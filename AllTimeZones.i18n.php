@@ -237,9 +237,10 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
-	'alltimezones-desc' => '모든 시간대의 날짜를 표시하는 태그를 추가',
+	'alltimezones-desc' => '모든 시간대의 날짜를 보여주는 태그를 추가합니다',
 );
 
 /** Colognian (Ripoarisch)
