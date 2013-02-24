@@ -271,6 +271,13 @@ $messages['map-bms'] = array(
 	'alltimezones-desc' => 'Nambahna tag kanggo nampilna tanggal nang kabeh zona wektu',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'alltimezones-desc' => 'Manambah tag untuak manampilkan tanggal kasado zona wakatu',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
