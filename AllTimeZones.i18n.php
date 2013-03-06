@@ -151,6 +151,13 @@ $messages['es'] = array(
 	'alltimezones-desc' => 'Añadir una etiqueta para mostrar las fechas en todas las zonas horarias',
 );
 
+/** Basque (euskara)
+ * @author Xabier Armendaritz
+ */
+$messages['eu'] = array(
+	'alltimezones-desc' => 'Etiketa bat gehitzen du, ordu eremu guztietako datak erakusteko',
+);
+
 /** Persian (فارسی)
  * @author Reza1615
  */
