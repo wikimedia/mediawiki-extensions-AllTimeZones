@@ -404,6 +404,13 @@ $messages['uk'] = array(
 	'alltimezones-desc' => 'Додає теги для відображення дат в усіх часових поясах',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
+ */
+$messages['vi'] = array(
+	'alltimezones-desc' => 'Thêm một thẻ để hiển thị ngày tháng trong tất cả các múi giờ',
+);
+
 /** Waray (Winaray)
  * @author Harvzsf
  */
