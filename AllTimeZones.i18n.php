@@ -59,6 +59,13 @@ $messages['ba'] = array(
 	'alltimezones-desc' => 'Бөтә сәғәт бүлкәтендә датаны күрһәтеү өсөн тамға ҡуя',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'alltimezones-desc' => 'Nagdudugang nin sarong tatak sa pagpapatanaw nin mga petsa sa gabos na mga sona nin oras',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
