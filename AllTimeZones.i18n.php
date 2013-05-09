@@ -299,6 +299,13 @@ $messages['mk'] = array(
 	'alltimezones-desc' => 'Додава ознака за прикажување на датумите во сите часовни појаси',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'alltimezones-desc' => 'എല്ലാ സമയമേഖലകളിലും തീയതി കാണിക്കാനുള്ള ടാഗ് കൂട്ടിച്ചേർക്കുന്നു',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
