@@ -186,6 +186,13 @@ $messages['fr'] = array(
 	'alltimezones-desc' => 'Ajoute une balise pour afficher les dates dans tous les fuseaux horaires',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'alltimezones-desc' => "Mä di ''tag'' <code><timezone></code> könst dü tidjen uun hör aanj tidjsoon uundu.",
+);
+
 /** Galician (galego)
  * @author Toliño
  */
