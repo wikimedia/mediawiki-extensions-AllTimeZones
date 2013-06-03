@@ -320,7 +320,7 @@ $messages['ms'] = array(
 	'alltimezones-desc' => 'Membubuh teg untuk memaparkan tarikh di semua zon waktu',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'alltimezones-desc' => 'Legger til en tagg for å vise datoer i alle tidssoner',
