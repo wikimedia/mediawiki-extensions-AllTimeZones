@@ -179,6 +179,13 @@ $messages['fi'] = array(
 	'alltimezones-desc' => 'Näyttää kaikkien aikavyöhykkeiden päivämäärät',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'alltimezones-desc' => 'Leggur afturat eitt lyklaorð fyri at vísa dagfesting í øllum tíðarøkjum',
+);
+
 /** French (français)
  * @author Wyz
  */
