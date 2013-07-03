@@ -278,6 +278,13 @@ $messages['ksh'] = array(
 	'alltimezones-desc' => 'Deiht ene Befähl en et Wiki, öm jedes Dattum en jeede Ziggzohn aanzeije ze künne.',
 );
 
+/** Kirghiz (Кыргызча)
+ * @author Викиней
+ */
+$messages['ky'] = array(
+	'alltimezones-desc' => 'Бардык убакыт чөлкөмдөрүндө датаны чагылдыруучу тегди кошот',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
