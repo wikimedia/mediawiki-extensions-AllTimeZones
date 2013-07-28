@@ -299,6 +299,13 @@ $messages['lt'] = array(
 	'alltimezones-desc' => 'Prideda gairę, rodančią datas visose laiko zonose',
 );
 
+/** Literary Chinese (文言)
+ * @author Yanteng3
+ */
+$messages['lzh'] = array(
+	'alltimezones-desc' => '添標以示全時區之日',
+);
+
 /** Basa Banyumasan (Basa Banyumasan)
  * @author StefanusRA
  */
@@ -325,6 +332,13 @@ $messages['mk'] = array(
  */
 $messages['ml'] = array(
 	'alltimezones-desc' => 'എല്ലാ സമയമേഖലകളിലും തീയതി കാണിക്കാനുള്ള ടാഗ് കൂട്ടിച്ചേർക്കുന്നു',
+);
+
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'alltimezones-desc' => 'तारीख दाखविण्यास सर्व वेळ-प्रभागात खूणपताका लावते',
 );
 
 /** Malay (Bahasa Melayu)
