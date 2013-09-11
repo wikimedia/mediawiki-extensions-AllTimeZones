@@ -109,6 +109,13 @@ $messages['cs'] = array(
 	'alltimezones-desc' => 'Přidá značku pro zobrazení data ve všech časových pásmech',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'alltimezones-desc' => 'Yn ychwanegu tag i ddangos dyddiadau ymhob cylchfa amser',
+);
+
 /** Danish (dansk)
  * @author Hylle
  */
