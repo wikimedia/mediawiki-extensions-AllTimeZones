@@ -390,6 +390,13 @@ $messages['pt'] = array(
 	'alltimezones-desc' => 'Adiciona uma marca para mostrar datas em todos os fusos horários',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'alltimezones-desc' => 'Adiciona uma etiqueta para exibir datas em todos os fusos horários',
+);
+
 /** Romanian (română)
  * @author Firilacroco
  */
