@@ -368,6 +368,13 @@ $messages['nl'] = array(
 	'alltimezones-desc' => 'Voegt een label toe om datums weer te geven in alle tijdzones',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'alltimezones-desc' => 'Apond una balisa per afichar las datas dins totes los fuses oraris',
+);
+
 /** Polish (polski)
  * @author BeginaFelicysym
  */
