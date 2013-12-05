@@ -460,6 +460,13 @@ $messages['tl'] = array(
 	'alltimezones-desc' => 'Nagdaragdag ng isang tatak upang maipakita ang mga petsa sa lahat ng mga sona ng oras',
 );
 
+/** Turkish (Türkçe)
+ * @author Joseph
+ */
+$messages['tr'] = array(
+	'alltimezones-desc' => 'Tüm saat dilimlerinde tarihleri göstermek için bir etiket ekler',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
