@@ -102,7 +102,7 @@ $messages['ca'] = array(
 	'alltimezones-desc' => 'Afegeix una etiqueta per mostrar les dates a totes les zones horàries',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Paxt
  */
 $messages['cs'] = array(
