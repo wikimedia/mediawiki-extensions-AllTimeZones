@@ -294,9 +294,10 @@ $messages['ky'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'alltimezones-desc' => 'Setzt en Tag derbäi fir Datumen an allen Zäitzonen ze weisen',
+	'alltimezones-desc' => 'Setzt en Tag dobäi fir Datumen an allen Zäitzonen ze weisen',
 );
 
 /** Lithuanian (lietuvių)
