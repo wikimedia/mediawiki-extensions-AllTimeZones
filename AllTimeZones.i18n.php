@@ -427,6 +427,13 @@ $messages['ru'] = array(
 	'alltimezones-desc' => 'Добавляет тег для отображения дат во всех часовых поясах',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'alltimezones-desc' => 'Adds ae tag tae shaw dates in aw time zones',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
