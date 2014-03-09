@@ -214,6 +214,13 @@ $messages['gl'] = array(
 	'alltimezones-desc' => 'Engade unha etiqueta para mostrar as datas en todos os fusos horarios',
 );
 
+/** Hawaiian (Hawai`i)
+ * @author Kolonahe
+ */
+$messages['haw'] = array(
+	'alltimezones-desc' => 'Hoʻohui i kekahi lepili no ka hōʻike ʻana o nā lā i nā kāʻei hola apau',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
