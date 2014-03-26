@@ -438,7 +438,7 @@ $messages['ru'] = array(
  * @author John Reid
  */
 $messages['sco'] = array(
-	'alltimezones-desc' => 'Adds ae tag tae shaw dates in aw time zones',
+	'alltimezones-desc' => 'Eiks ae tag tae shaw dates in aw time zones',
 );
 
 /** Sinhala (සිංහල)
