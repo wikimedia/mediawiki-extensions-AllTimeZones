@@ -469,6 +469,13 @@ $messages['ta'] = array(
 	'alltimezones-desc' => 'அனைத்து நேர வலயங்களிலும் திகதிகளைக் காட்டுவதற்கு ஓர் அடையாள ஒட்டைச் சேர்க்கும்',
 );
 
+/** Telugu (తెలుగు)
+ * @author Ravichandra
+ */
+$messages['te'] = array(
+	'alltimezones-desc' => 'తేదీలను అన్ని కాలమండలంలో చూపించడానికి ఓ పట్టీ చేరుస్తుంది',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
