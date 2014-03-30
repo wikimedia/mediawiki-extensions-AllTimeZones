@@ -7,7 +7,6 @@
  *
  * @ingroup Extensions
  * @author Nischay Nahata <nischayn22@gmail.com>
- * @version 1.0
  * @link https://www.mediawiki.org/wiki/Extension:AllTimeZones
  */
 
@@ -20,17 +19,18 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( -1 );
 }
 
-// Extension credits that will show up on Special:Version    
+// Extension credits that will show up on Special:Version
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'AllTimeZones',
-	'version'        => '0.1',
+	'version'        => '0.2.0',
 	'author'         => 'Nischay Nahata',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:AllTimeZones',
 	'descriptionmsg' => 'alltimezones-desc',
 );
 
 $wgAllTimeZonesIP = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['AllTimeZones'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AllTimeZones'] = $wgAllTimeZonesIP . 'AllTimeZones.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfTimezoneSetup';
@@ -202,7 +202,7 @@ function wfTimezone( $input, array $args, Parser $parser, PPFrame $frame ) {
 		// convert this to the specific timezone using the DateTimeZone object
 		$dtime->setTimeZone($dtzone);
 
-		// print the time using your preferred format 
+		// print the time using your preferred format
 		// TODO add new formats
 		$time = $dtime->format('g:i A m/d/y');
 		if($tz==$inputTz)
