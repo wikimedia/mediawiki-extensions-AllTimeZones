@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln"
-        ]
-    },
-    "alltimezones-desc": "Ergänzt das Tag <code><timezone></code> mit dem man eine zeitzonenabhängige Zeitangabe einbinden kann"
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"alltimezones-desc": "Ergänzt das Tag <code><timezone></code> mit dem man eine zeitzonenabhängige Zeitangabe einbinden kann"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cainamarques"
-        ]
-    },
-    "alltimezones-desc": "Adiciona uma etiqueta para exibir datas em todos os fusos horários"
+	"@metadata": {
+		"authors": [
+			"Cainamarques"
+		]
+	},
+	"alltimezones-desc": "Adiciona uma etiqueta para exibir datas em todos os fusos horários"
 }
