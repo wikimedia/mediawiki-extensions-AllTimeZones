@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armando-Martin"
+			"Armando-Martin",
+			"Macofe"
 		]
 	},
-	"alltimezones-desc": "Añadir una etiqueta para mostrar las fechas en todas las zonas horarias"
+	"alltimezones-desc": "Añade una etiqueta para mostrar las fechas en todas las zonas horarias"
 }
