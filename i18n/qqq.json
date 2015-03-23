@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"alltimezones-desc": "{{desc|name=All Time Zones|url=http://www.mediawiki.org/wiki/AllTimeZones}}"
+	"alltimezones-desc": "{{desc|name=All Time Zones|url=https://www.mediawiki.org/wiki/AllTimeZones}}"
 }
