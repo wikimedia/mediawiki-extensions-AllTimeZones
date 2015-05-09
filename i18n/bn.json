@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bellayet"
+			"Bellayet",
+			"Aftabuzzaman"
 		]
 	},
-	"alltimezones-desc": "সকল টাইম জোনের তারিখ দেখাতে ট্যাগ যোগ করো"
+	"alltimezones-desc": "সকল সময় অঞ্চলের তারিখ দেখাতে ট্যাগ যোগ করো"
 }
