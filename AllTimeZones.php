@@ -14,49 +14,47 @@
  * Protect against register_globals vulnerabilities.
  * This line must be present before any global variable is referenced.
  */
-if( !defined( 'MEDIAWIKI' ) ) {
-	echo( "This is an extension to the MediaWiki package and cannot be run standalone.\n" );
+if ( !defined( 'MEDIAWIKI' ) ) {
+	echo "This is an extension to the MediaWiki package and cannot be run standalone.\n";
 	die( -1 );
 }
 
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'AllTimeZones',
-	'version'        => '0.2.0',
-	'author'         => 'Nischay Nahata',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:AllTimeZones',
+	'path' => __FILE__,
+	'name' => 'AllTimeZones',
+	'version' => '0.3.0',
+	'author' => 'Nischay Nahata',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:AllTimeZones',
 	'descriptionmsg' => 'alltimezones-desc',
 );
 
-$wgAllTimeZonesIP = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['AllTimeZones'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AllTimeZones'] = $wgAllTimeZonesIP . 'AllTimeZones.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfTimezoneSetup';
 
 function wfTimezoneSetup( Parser $parser ) {
 	$parser->setHook( 'timezone', 'wfTimezone' );
+
 	return true;
 }
 
 function wfTimezone( $input, array $args, Parser $parser, PPFrame $frame ) {
-
-	//time to convert (format specified below)
-	//$time = 'Tuesday, April 21, 2009 2:32:46 PM';
+	// time to convert (format specified below)
+	// $time = 'Tuesday, April 21, 2009 2:32:46 PM';
 	$time = $args['time'];
 
-	//time zone provided by the user
+	// time zone provided by the user
 	$inputTz = $args['zone'];
 
 	// create the DateTimeZone object
-	$dtzone = new DateTimeZone($inputTz);
+	$dtzone = new DateTimeZone( $inputTz );
 
 	// now create the DateTime object for this time and user time zone
-	$dtime = new DateTime($time, $dtzone);
+	$dtime = new DateTime( $time, $dtzone );
 
 	// Get the timestamp
-	$timestamp = $dtime->format('U');
+	$timestamp = $dtime->format( 'U' );
 
 	// create an array listing the time zones
 	$timezones = array(
@@ -185,30 +183,31 @@ function wfTimezone( $input, array $args, Parser $parser, PPFrame $frame ) {
 		'Pacific/Fiji' => '(GMT+12:00) Fiji',
 		'Asia/Kamchatka' => '(GMT+12:00) Kamchatka',
 		'Pacific/Auckland' => '(GMT+12:00) Auckland',
-		'Pacific/Tongatapu' => '(GMT+13:00) Nukualofa');
+		'Pacific/Tongatapu' => '(GMT+13:00) Nukualofa' );
 
 	$html = Xml::openElement( 'select', array( 'name' => 'tz' ) );
 
-	foreach( $timezones as $tz => $tzDescription ){
+	foreach ( $timezones as $tz => $tzDescription ) {
 		// create the DateTimeZone object
-		$dtzone = new DateTimeZone($tz);
+		$dtzone = new DateTimeZone( $tz );
 
 		// first convert the timestamp into a string representing the local time
-		$time = date('r', $timestamp);
+		$time = date( 'r', $timestamp );
 
 		// now create the DateTime object for this time
-		$dtime = new DateTime($time);
+		$dtime = new DateTime( $time );
 
 		// convert this to the specific timezone using the DateTimeZone object
-		$dtime->setTimeZone($dtzone);
+		$dtime->setTimeZone( $dtzone );
 
 		// print the time using your preferred format
 		// TODO add new formats
-		$time = $dtime->format('g:i A m/d/y');
-		if($tz==$inputTz)
-			$html .= Xml::option( $tz.' '.$time, $tzDescription, true );
-		else
-			$html .= Xml::option( $tz.' '.$time, $tzDescription, false );
+		$time = $dtime->format( 'g:i A m/d/y' );
+		if ( $tz == $inputTz ) {
+			$html .= Xml::option( $tz . ' ' . $time, $tzDescription, true );
+		} else {
+			$html .= Xml::option( $tz . ' ' . $time, $tzDescription, false );
+		}
 	}
 
 	$html .= Xml::closeElement( 'select' );
