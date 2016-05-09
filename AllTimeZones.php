@@ -20,14 +20,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 // Extension credits that will show up on Special:Version
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['parserhook'][] = [
 	'path' => __FILE__,
 	'name' => 'AllTimeZones',
 	'version' => '0.3.0',
 	'author' => 'Nischay Nahata',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AllTimeZones',
 	'descriptionmsg' => 'alltimezones-desc',
-);
+];
 
 $wgMessagesDirs['AllTimeZones'] = __DIR__ . '/i18n';
 
@@ -57,7 +57,7 @@ function wfTimezone( $input, array $args, Parser $parser, PPFrame $frame ) {
 	$timestamp = $dtime->format( 'U' );
 
 	// create an array listing the time zones
-	$timezones = array(
+	$timezones = [
 		'Kwajalein' => '(GMT-12:00) International Date Line West',
 		'Pacific/Midway' => '(GMT-11:00) Midway Island',
 		'Pacific/Samoa' => '(GMT-11:00) Samoa',
@@ -183,9 +183,9 @@ function wfTimezone( $input, array $args, Parser $parser, PPFrame $frame ) {
 		'Pacific/Fiji' => '(GMT+12:00) Fiji',
 		'Asia/Kamchatka' => '(GMT+12:00) Kamchatka',
 		'Pacific/Auckland' => '(GMT+12:00) Auckland',
-		'Pacific/Tongatapu' => '(GMT+13:00) Nukualofa' );
+		'Pacific/Tongatapu' => '(GMT+13:00) Nukualofa' ];
 
-	$html = Xml::openElement( 'select', array( 'name' => 'tz' ) );
+	$html = Xml::openElement( 'select', [ 'name' => 'tz' ] );
 
 	foreach ( $timezones as $tz => $tzDescription ) {
 		// create the DateTimeZone object
