@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obaid Raza"
+			"Obaid Raza",
+			"امین اکبر"
 		]
 	},
-	"alltimezones-desc": "ایک ٹیگ شامل کریں جو تمام ٹائم زونز میں تاریخ ظاہر کرے"
+	"alltimezones-desc": "ایک ٹیگ شامل کریں جو تمام منطقۂ وقت میں تاریخ ظاہر کرے"
 }
