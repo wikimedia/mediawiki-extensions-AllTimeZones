@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Garas"
+			"Garas",
+			"Manvydasz"
 		]
 	},
-	"alltimezones-desc": "Prideda gairę, rodančią datas visose laiko zonose"
+	"alltimezones-desc": "Prideda žymą, rodančią datas visose laiko zonose"
 }
