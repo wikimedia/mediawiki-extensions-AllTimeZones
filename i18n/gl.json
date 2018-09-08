@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
-	"alltimezones-desc": "Engade unha etiqueta para mostrar as datas en todos os fusos horarios"
+	"alltimezones-desc": "Engade unha etiqueta para amosar as datas en tódolos fusos horarios"
 }
