@@ -12,7 +12,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"AllTimeZonesHooks": "AllTimeZones.hooks.php"
+		"AllTimeZonesHooks": "AllTimeZonesHooks.php"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "AllTimeZonesHooks::wfTimezoneSetup"

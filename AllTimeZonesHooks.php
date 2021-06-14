@@ -1,12 +1,20 @@
 <?php
 
 class AllTimeZonesHooks {
+	/**
+	 * @param Parser $parser
+	 */
 	public static function wfTimezoneSetup( Parser $parser ) {
 		$parser->setHook( 'timezone', 'AllTimeZonesHooks::wfTimezone' );
-
-		return true;
 	}
 
+	/**
+	 * @param string $input
+	 * @param array $args
+	 * @param Parser $parser
+	 * @param PPFrame $frame
+	 * @return string
+	 */
 	public static function wfTimezone( $input, array $args, Parser $parser, PPFrame $frame ) {
 		// time to convert (format specified below)
 		// $time = 'Tuesday, April 21, 2009 2:32:46 PM';
