@@ -2,7 +2,7 @@
 
 #To install place this directory in your extensions directory and add the following line in your LocalSettings.php file in the bottom
 
-  include_once('extensions/AllTimeZones/AllTimeZones.php');
+  wfLoadExtension( 'AllTimeZones' );
 	
 	
 #More information can be found at www.mediawiki.org/wiki/Extensions:AllTimeZones

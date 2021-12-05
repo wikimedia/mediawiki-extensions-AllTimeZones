@@ -6,6 +6,9 @@
 	"descriptionmsg": "alltimezones-desc",
 	"license-name": "GPL-3.0-only",
 	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"AllTimeZones": [
 			"i18n"
