@@ -1,4 +1,5 @@
 {
+	"name": "AllTimeZones",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
