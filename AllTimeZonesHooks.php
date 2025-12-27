@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Html\Html;
+
 class AllTimeZonesHooks {
 	/**
 	 * @param Parser $parser
@@ -161,7 +163,7 @@ class AllTimeZonesHooks {
 			'Pacific/Auckland' => '(GMT+12:00) Auckland',
 			'Pacific/Tongatapu' => '(GMT+13:00) Nukualofa' ];
 
-		$html = Xml::openElement( 'select', [ 'name' => 'tz' ] );
+		$html = Html::openElement( 'select', [ 'name' => 'tz' ] );
 
 		foreach ( $timezones as $tz => $tzDescription ) {
 			// create the DateTimeZone object
@@ -179,14 +181,14 @@ class AllTimeZonesHooks {
 			// print the time using your preferred format
 			// TODO add new formats
 			$time = $dtime->format( 'g:i A m/d/y' );
-			if ( $tz == $inputTz ) {
-				$html .= Xml::option( $tz . ' ' . $time, $tzDescription, true );
-			} else {
-				$html .= Xml::option( $tz . ' ' . $time, $tzDescription, false );
-			}
+			$html .= Html::element(
+				'option',
+				[ 'value' => $tzDescription, 'selected' => $tz === $inputTz ],
+				$tz . ' ' . $time
+			);
 		}
 
-		$html .= Xml::closeElement( 'select' );
+		$html .= Html::closeElement( 'select' );
 
 		return $html;
 	}
