@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Farras"
+			"Farras",
+			"Penyuwangi"
 		]
 	},
-	"alltimezones-desc": "Menambahkan tag untuk menampilkan tanggal di semua zona waktu"
+	"alltimezones-desc": "Menambahkan tanda untuk menampilkan tanggal di semua zona waktu"
 }
