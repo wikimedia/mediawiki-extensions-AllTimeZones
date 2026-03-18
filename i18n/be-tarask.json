@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wizardist"
+			"Wizardist",
+			"Ucukor"
 		]
 	},
-	"alltimezones-desc": "Дадае тэг для адлюстраваньня датаў ва ўсіх часавых пасах"
+	"alltimezones-desc": "Дадае тэґ для паказу датаў ва ўсіх часавых паясох"
 }
